@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarang Baloch - Truth | Voice | Balochistan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', system-ui, sans-serif; }
+        
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)),
+                              url('https://i.postimg.cc/jLQt4gWb/new-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .header-logo {
+            width: 70px;
+            height: auto;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+        }
+
+        .feed-container {
+            max-width: 100%;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .social-link {
+            transition: all 0.3s ease;
+        }
+        .social-link:hover {
+            transform: translateY(-5px);
+            color: #ef4444 !important;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100">
+
+  <!-- Header -->
+  <header class="bg-black border-b border-red-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div>
+        <img src="https://i.postimg.cc/xX1Dy0Dp/logo.jpg" alt="Sarang Baloch" class="header-logo">
+      </div>
+      
+      <nav class="hidden md:flex items-center gap-8 text-base">
+        <a href="#" class="hover:text-red-500 transition">Home</a>
+        <a href="#" class="hover:text-red-500 transition">Latest News</a>
+        <a href="#" class="hover:text-red-500 transition">Articles</a>
+        <a href="#" class="hover:text-red-500 transition">Balochistan</a>
+        <a href="#" class="hover:text-red-500 transition">Opinion</a>
+        <a href="#" class="hover:text-red-500 transition">Culture</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <input type="text" placeholder="Search news..." 
+               class="bg-gray-900 border border-gray-700 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-red-600 w-64">
+        <button class="bg-red-700 hover:bg-red-600 px-5 py-2 rounded-lg font-medium transition text-sm">
+          Submit News
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-bg h-screen flex items-center">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <img src="https://i.postimg.cc/xX1Dy0Dp/logo.jpg" alt="Sarang Baloch" class="mx-auto w-56 mb-8">
+      <h2 class="text-5xl md:text-6xl font-bold tracking-wider mb-3">SARANG BALOCH</h2>
+      <p class="text-2xl text-red-400 mb-6">Truth • Voice • Balochistan</p>
+      <h3 class="text-3xl font-semibold mb-12">The Voice of Balochistan</h3>
+      <button onclick="window.scrollTo({top: 1100, behavior: 'smooth'})" 
+              class="bg-red-700 hover:bg-red-600 text-white px-12 py-4 rounded-2xl text-xl font-bold transition">
+        Read Latest News
+      </button>
+    </div>
+  </section>
+
+  <!-- Social Media Links Bar -->
+  <section class="py-8 bg-black border-b border-red-900">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-center text-3xl font-bold mb-8 text-red-400">Follow Sarang Baloch</h2>
+      
+      <div class="grid grid-cols-3 md:grid-cols-6 gap-6">
+        
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/sarang_baluch" target="_blank" 
+           class="social-link flex flex-col items-center gap-2 text-pink-500 hover:text-pink-400">
+          <i class="fa-brands fa-instagram text-5xl"></i>
+          <span class="font-medium">Instagram</span>
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/people/سارنگ-بلوچ/61590202898678/" target="_blank" 
+           class="social-link flex flex-col items-center gap-2 text-blue-500 hover:text-blue-400">
+          <i class="fa-brands fa-facebook text-5xl"></i>
+          <span class="font-medium">Facebook</span>
+        </a>
+
+        <!-- YouTube -->
+        <a href="#" target="_blank" 
+           class="social-link flex flex-col items-center gap-2 text-red-600 hover:text-red-500">
+          <i class="fa-brands fa-youtube text-5xl"></i>
+          <span class="font-medium">YouTube</span>
+        </a>
+
+        <!-- Twitter / X -->
+        <a href="#" target="_blank" 
+           class="social-link flex flex-col items-center gap-2 text-white hover:text-gray-300">
+          <i class="fa-brands fa-x-twitter text-5xl"></i>
+          <span class="font-medium">Twitter / X</span>
+        </a>
+
+        <!-- TikTok -->
+        <a href="#" target="_blank" 
+           class="social-link flex flex-col items-center gap-2 text-white hover:text-gray-300">
+          <i class="fa-brands fa-tiktok text-5xl"></i>
+          <span class="font-medium">TikTok</span>
+        </a>
+
+        <!-- Telegram -->
+        <a href="#" target="_blank" 
+           class="social-link flex flex-col items-center gap-2 text-sky-400 hover:text-sky-300">
+          <i class="fa-brands fa-telegram text-5xl"></i>
+          <span class="font-medium">Telegram</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Feeds Section -->
+  <section class="py-16 bg-gray-900">
+    <div class="max-w-7xl mx-auto px-6 space-y-24">
+
+      <!-- Instagram Feed -->
+      <div>
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-4xl font-bold flex items-center gap-3">
+            <i class="fa-brands fa-instagram text-pink-500"></i> 
+            Instagram Feed
+          </h2>
+          <a href="https://www.instagram.com/sarang_baluch" target="_blank" 
+             class="text-pink-400 hover:text-pink-500 font-medium">Visit Profile →</a>
+        </div>
+        
+        <div class="feed-container bg-white p-4">
+          <blockquote class="instagram-media" 
+            data-instgrm-permalink="https://www.instagram.com/sarang_baluch/"
+            data-instgrm-version="14"
+            style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:100%; min-width:326px; padding:0; width:100%;">
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Facebook Feed -->
+      <div>
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-4xl font-bold flex items-center gap-3">
+            <i class="fa-brands fa-facebook text-blue-500"></i> 
+            Facebook Feed
+          </h2>
+          <a href="https://www.facebook.com/share/1aNmoGx325/" target="_blank" 
+             class="text-blue-400 hover:text-blue-500 font-medium">Visit Facebook →</a>
+        </div>
+        
+        <div class="feed-container">
+          <div class="fb-page" 
+               data-href="https://www.facebook.com/people/سارنگ-بلوچ/61590202898678/" 
+               data-tabs="timeline" 
+               data-width="100%" 
+               data-height="700" 
+               data-small-header="false" 
+               data-adapt-container-width="true" 
+               data-hide-cover="false" 
+               data-show-facepile="true">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0"></script>
+
+  <!-- Instagram Embed Script -->
+  <script async src="//www.instagram.com/embed.js"></script>
+
+</body>
+</html>
